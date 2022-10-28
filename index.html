@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.I.C.E</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icons-1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media1.css" media="(min-width: 320px) and (max-width: 768px)">
+    <link rel="shortcut icon" href="images/6.png" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between align-items-md-stretch py-2 py-md-4 vh-100">
+            <div class="row bg-whitte text-blue mx-auto ms-lg-0 col-10 col-md-3 col-lg-3 my-2 mt-1 my-md-0 fs-2 fw-bolder rounded-5 rtop">
+                <div class="player-one d-flex flex-column justify-content-between align-items-center">
+                    <span class="my-2 my-md-3 py-0 py-md-5 pt-md-0 spaan">Player .1</span>
+                    <span class="my-2 my-md-3 py-0 py-md-3 spaan">Score :</span>
+                    <span class="my-2 my-md-3 py-0 py-md-5 pb-md-0 spaan" id="numplayer1">0</span>
+                </div>
+            </div>
+            <div class="row bg-opac text-white shadow-lg mx-auto mx-lg-1 col-10 col-md-6 col-lg-5 my-0 fs-1 fw-bolder border border-3 border-blue rounded-5 rmiddle">
+                <div class="dice d-flex flex-column justify-content-between align-items-center">
+                    <span class="my-2 my-md-3 py-0 pt-md-0 spaan"> D.I.C.E </span>
+                    <span class="my-2 my-md-3 py-0 justify-content-evenly align-items-center spaan">
+                        <span><img class="img-fluid rounded-4 dice-images" src="images/1.png" alt="" id="dice1"></span>
+                        <span><img class="img-fluid rounded-4 dice-images" src="images/2.png" alt="" id="dice2"></span>
+                    </span>
+                    <button class="btn text-white fs-3 fw-normal my-2 my-md-3 py-0 border border-3 border-whitte shadow-lg rounded-4 spaan" id="go-dice"> Go Dice</button>
+                    <span class="my-2 my-md-3 py-0 fs-2 spaan">
+                        <span>equal  :</span>
+                        <span id="equal">0</span>
+                    </span>
+                </div>
+            </div>
+            <div class="row bg-whitte text-blue mx-auto me-lg-0 col-10 col-md-3 col-lg-3 my-2 mb-1 my-md-0 fs-2 fw-bolder rounded-5 rbottom">
+                <div class="player-tow d-flex flex-column justify-content-between align-items-center">
+                    <span class="my-2 my-md-3 py-0 py-md-5 pt-md-0 spaan">player .2</span>
+                    <span class="my-2 my-md-3 py-0 py-md-3 spaan">Score :</span>
+                    <span class="my-2 my-md-3 py-0 py-md-5 pb-md-0 spaan" id="numplayer2">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modall d-flex flex-column justify-content-evenly align-items-center bg-white text-blue w-50 h-25 mx-auto mt-5 py-5 border border-3 border-blue rounded-4 fs-1 d-none" id="modall-1">
+        <span class="h1">Winner</span>
+        <span class="h3">.</span>
+        <button class="btn btn-modall text-blue fs-3 fw-normal my-2 my-md-3 py-0 border border-3 border-blue shadow-lg rounded-4 spaan" id="btn-moddall">Ok</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

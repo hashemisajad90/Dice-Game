@@ -1,0 +1,69 @@
+body{
+    background-image:
+    linear-gradient(45deg, #000071e0 25%, transparent 25%),
+    linear-gradient(-45deg, #00008be0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #000071e0 75%),
+    linear-gradient(-45deg, transparent 75%, #00008be0 75%) !important;
+    background-size:20px 20px !important;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px !important;
+    background-color: #00008be0 !important;
+    font-family: 'VT323', monospace !important;
+    overflow: hidden !important;
+}
+.bg-whitte{
+    background-color: #ffffffe0 !important;
+}
+.bg-opac{
+    background-color: #ffffff09 !important;
+}
+.text-blue{
+    color: #0000de !important;
+}
+.border-whitte{
+    border-color: #ffffffe0 !important;
+}
+.border-blue{
+    border-color: #0000ff !important;
+}
+.container-fluid{
+    overflow: hidden !important;
+}
+.modall{
+    position: relative !important;
+    top: -515px !important;
+
+}
+.btn{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btn:hover{
+    border-color: #ffffffe0 !important;
+    background-color: #ffffffe0 !important;
+    color: #0000de !important;
+    cursor: pointer !important;
+}
+.btn:active{
+    border-color: #ffffffe0 !important;
+    background-color: #ffffffe0 !important;
+    color: #0000de !important;
+}
+.btn-modall:hover{
+    border-color: #0000de !important;
+    background-color: #0000de !important;
+    color: #ffffffe0 !important;
+    cursor: pointer !important;
+}
+.fs-1{
+    font-size: 3.5rem!important;
+}
+.fs-2{
+    font-size: 2.5rem!important;
+}
+.fs-3{
+    font-size: 2rem!important;
+}
+
+
